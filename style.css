@@ -17,17 +17,66 @@ body {
   background-color: #fff;
   width: 1050px;
   height: 100%;
-  margin: 0 auto 50px;
-  padding: 40px 60px;
+  margin: 0 auto 92px;
+  /* padding: 0 60px 40px 60px; */
 }
 
+/* Header of the Container */
 .container .container-header {
+  width: 100%;
+  height: 100px;
   background-color: #00a884;
-  margin: 30px 0;
-}
-
-.container .windows-app {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+}
+
+.container .container-header span {
+  display: flex;
+  align-items: center;
+}
+
+.container-header span img {
+  height: 40px;
+  width: 40px;
+}
+
+.container-header span h4 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 18px;
+}
+
+/* Body of the Container */
+.container .container-main {
+  border-radius: 10px;
+  padding: 60px 50px 50px;
+}
+
+.container-main .windows-app {
+  width: 90%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #d1d7db;
+  border-radius: 5px;
+  padding: 24px 40px;
+}
+
+.windows-app .windows-app-text .text1 {
+  color: #111b21;
+}
+
+.windows-app .windows-app-text .text2 {
+  font-size: 14px;
+  color: #54656f;
+}
+
+.windows-app .get-app {
+  background-color: #008068;
+  color: #fff;
+  border: none;
 }
