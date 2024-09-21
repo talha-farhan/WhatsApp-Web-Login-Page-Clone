@@ -54,6 +54,7 @@ body {
   height: 100%;
   border-radius: 10px;
   padding: 30px 80px;
+  background-color: #f0f2f5;
 }
 
 .container-main .windows-app {
@@ -149,4 +150,33 @@ ol li i {
 .container .container-main .web-app-phone {
   font-size: 18px;
   color: #008069;
+  background-color: #f0f2f5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 40px 0 50px;
+}
+
+.container .container-main .tutorial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-main .tutorial h2 {
+  font-size: 28px;
+  font-weight: 200;
+  color: #41525d;
+  text-align: center;
+}
+
+.container .tutorial a {
+  color: #008069;
+  font-size: 14px;
+}
+
+.container .tutorial video {
+  width: 70%;
+  height: 300px;
 }
