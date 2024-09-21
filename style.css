@@ -51,6 +51,7 @@ body {
 
 /* Body of the Container */
 .container .container-main {
+  height: 100%;
   border-radius: 10px;
   padding: 30px 80px;
 }
@@ -80,8 +81,8 @@ body {
 .windows-app .get-app {
   width: 130px;
   height: 45px;
-  background-color: #008068;
-  border: 2px solid #008068;
+  background-color: #008069;
+  border: 2px solid #008069;
   border-radius: 25px;
   outline: none;
 }
@@ -105,10 +106,12 @@ body {
   display: flex;
   align-items: start;
   justify-content: flex-end;
+  border-bottom: 1px solid #d1d7db;
 }
 
 .container-main .web-app-qr .web-app-qr-left {
   width: 60%;
+  padding-top: 5px;
 }
 
 .web-app-qr .web-app-qr-left h1 {
@@ -135,9 +138,15 @@ ol li i {
 
 .container-main .web-app-qr .web-app-qr-right {
   width: 40%;
+  padding-left: 80px;
 }
 
 .web-app-qr .web-app-qr-right img {
   width: 265px;
   height: 265px;
+}
+
+.container .container-main .web-app-phone {
+  font-size: 18px;
+  color: #008069;
 }
